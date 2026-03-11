@@ -37,8 +37,8 @@ function setup() {
   let instructions = createP('Click the mouse to generate a new flow field and start the sound.<br>Press space to toggle the flow field trace lines.');
   instructions.class('instructions');
 
-  createCanvas(640, 240);
-  trailBuffer = createGraphics(640, 240);
+  createCanvas(1280, 480);
+  trailBuffer = createGraphics(1280, 480);
   // Paper texture: dibujar bitmap de pixeles para dibujar la textura pixel por pixel
   trailBuffer.loadPixels();
   for (let x = 0; x < trailBuffer.width; x++) {
